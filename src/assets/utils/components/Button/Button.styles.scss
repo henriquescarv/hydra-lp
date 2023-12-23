@@ -1,0 +1,26 @@
+@import '@/styles/defaultTheme';
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.primary {
+  color: $bg-color;
+  font-weight: $w-bold;
+  background: $gradient-1;
+  padding: 18px 36px;
+  border-radius: 40px;
+}
+
+.secondary {
+  color: $text-primary;
+  font-weight: $w-bold;
+  background: transparent;
+  border: 2px solid $text-primary;
+  padding: 18px 36px;
+  border-radius: 40px;
+}
